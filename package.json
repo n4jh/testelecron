@@ -1,6 +1,6 @@
 {
   "name": "electron-updater1",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n4jh/electronupdate.git"
+    "url": "https://github.com/n4jh/testelecron.git"
   },
   "build": {
     "appId": "com.example.ElectronAutoUpdate",
     "publish": [{
       "provider": "github",
-      "token": "c69abfdd0bd2e084e4b7823ab874c9b02e3774af"
+      "token": "6f6df7a645aff0e608d8e3679ead6932f1f93c53"
     }],
     "linux": {
       "target": [{"target": "AppImage"}]
