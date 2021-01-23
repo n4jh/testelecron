@@ -20,5 +20,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/n4jh/electronupdate.git"
+  },
+  "build": {
+    "appId": "com.example.ElectronAutoUpdate",
+    "publish": [{
+      "provider": "github",
+      "token": "c69abfdd0bd2e084e4b7823ab874c9b02e3774af"
+    }],
+    "linux": {
+      "target": [{"target": "AppImage"}]
+    }
   }
 }
